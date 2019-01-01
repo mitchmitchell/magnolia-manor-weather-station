@@ -1,6 +1,6 @@
-# MagnoliaManorWeather
+# Magnolia Manor Weather Station
 
-A Particle project named MagnoliaManorWeather
+A Particle project using the Sparkfun Photon Weather Shield
 
 ## Welcome to your project!
 
