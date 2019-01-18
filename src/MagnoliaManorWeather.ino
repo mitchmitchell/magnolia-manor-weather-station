@@ -671,7 +671,7 @@ void printInfo()
 
       SERIAL_PORT.print("Humidity:");
       SERIAL_PORT.print(humidity);
-      SERIAL_PORT.print("%, ");
+      SERIAL_PORT.print("%%, ");
 
       SERIAL_PORT.print("Baro_Temp:");
       SERIAL_PORT.print(baroTemp);
