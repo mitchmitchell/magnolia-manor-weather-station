@@ -143,6 +143,7 @@ float APDS9301::readLuxLevel()
   unsigned int ch0Int = readCH0Level();
   float ch0 = (float)readCH0Level();
   float ch1 = (float)readCH1Level();
+  
   switch (getIntegrationTime())
   {
     case INT_TIME_13_7_MS:
@@ -165,6 +166,7 @@ float APDS9301::readLuxLevel()
     }
     break;
   }
+  
   float ratio = ch1/ch0;
   switch (getIntegrationTime())
   {
